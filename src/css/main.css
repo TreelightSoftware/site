@@ -11028,35 +11028,6 @@ img.mfp-img {
   .back-to-top {
     bottom: 55px; } }
 
-/*
-Theme Name:       Proton - Bootstrap 4 Template
-Author:           UIdeck
-Author URI:       http://uideck.com
-Text Domain:      UIdeck
-Domain Path:      /languages/
-*/
-/*TABLE OF CONTENT */
-/* CORE: */
-/* ____Bootstrap */
-/* ____Logo */
-/* ____Icon */
-/* ____Button */
-/* ____Section */
-/* ____Nav */
-/* ____Header */
-/* ____Footer */
-/* MODULES: */
-/* ____Carouse Slider */
-/* ____Features */
-/* ____Counter */
-/* ____Screenshots */
-/* ____Team */
-/* ____Testimonial */
-/* ____Download */
-/* ____Subscribe */
-/* ____Pricing-table */
-/* ____Blog */
-/* ____Contact*/
 /* ==========================================================================
    IMPORT GOOGLE FONTS
    ========================================================================== */
@@ -11145,6 +11116,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     background-image: -o-linear-gradient(bottom right, #3c96ff, #2dfbff);
     background-image: linear-gradient(to top left, #3c96ff, #2dfbff);
     position: relative; }
+
+.section-striped {
+  background-color: #f6fbfd; }
 
 /* ==========================================================================
    Buttons

@@ -1,32 +1,3 @@
-/*
-Theme Name:       Proton - Bootstrap 4 Template
-Author:           UIdeck
-Author URI:       http://uideck.com
-Text Domain:      UIdeck
-Domain Path:      /languages/
-*/
-/*TABLE OF CONTENT */
-/* CORE: */
-/* ____Bootstrap */
-/* ____Logo */
-/* ____Icon */
-/* ____Button */
-/* ____Section */
-/* ____Nav */
-/* ____Header */
-/* ____Footer */
-/* MODULES: */
-/* ____Carouse Slider */
-/* ____Features */
-/* ____Counter */
-/* ____Screenshots */
-/* ____Team */
-/* ____Testimonial */
-/* ____Download */
-/* ____Subscribe */
-/* ____Pricing-table */
-/* ____Blog */
-/* ____Contact*/
 
 
 /* ==========================================================================
@@ -123,6 +94,9 @@ Domain Path:      /languages/
       position: relative;
     }
 
+  }
+  .section-striped {
+    background-color: #f6fbfd;
   }
 
 /* ==========================================================================
