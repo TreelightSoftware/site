@@ -1,0 +1,30 @@
+{
+  "name": "treelight-site",
+  "version": "1.0.0",
+  "description": "The website for Treelight Software",
+  "main": "build/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/gulp/bin/gulp.js sass && ./node_modules/gulp/bin/gulp.js js && ./node_modules/gulp/bin/gulp.js copy",
+    "sass": "./node_modules/gulp/bin/gulp.js sass",
+    "js": "./node_modules/gulp/bin/gulp.js js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TreelightSoftware/site.git"
+  },
+  "author": "Kevin Eaton <kevin@treelightsoftware.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TreelightSoftware/site/issues"
+  },
+  "homepage": "https://github.com/TreelightSoftware/site#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^4.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1"
+  }
+}
