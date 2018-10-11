@@ -28,4 +28,4 @@ To build a new distribution, run
 
 This will create a new build of the site in `/dist`. We use [Netlify](https://www.netlify.com/) for our deploys and hosting. It will take the `dist` folder of the `master` branch and automatically deploy and host it.
 
-*We use Git Flow, so make sure you branch off of `develop`, open a PR against `develop`, and then after merging we will handle merging it into `master`. You must run `npm run build` and create the dist folder!*
+*We use Git Flow, so make sure you branch off of `develop`, open a PR against `develop`, and then after merging we will handle merging it into `master`.*
