@@ -4,11 +4,11 @@ This is the landing page for Treelight Software, a software development firm loc
 
 ## Building
 
-Everything you need to build or contribute should be handled through NPM scripts. After cloning and `cd`ing into the director, run
+Everything you need to build or contribute should be handled through NPM scripts. After cloning and `cd`ing into the directory, run
 
 `npm install`
 
-This will install `gulp` and it's dependencies. We use SASS for our CSS. If you change a `.scss.` file, run
+This will install `gulp` and its dependencies. We use SASS for our CSS. If you change a `.scss.` file, run
 
 `npm run sass`
 
