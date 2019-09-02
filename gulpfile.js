@@ -30,9 +30,9 @@ gulp.task('copy', () => {
   .pipe(gulp.dest('dist'));
 })
 
-gulp.task('sass', ['clean:css', 'compile-sass']);
+gulp.task('sass', gulp.series(['clean:css', 'compile-sass']));
 gulp.task('sass:watch', () => {gulp.watch('./src/scss/*.scss', ['sass']);});
-gulp.task('build', ['copy']);
+gulp.task('build', gulp.series(['copy']));
 
 const scripts = [
   "src/jsLib/jquery-min.js",
