@@ -5,7 +5,7 @@
   "main": "build/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/gulp/bin/gulp.js sass && ./node_modules/gulp/bin/gulp.js js && ./node_modules/gulp/bin/gulp.js copy",
+    "build": "./node_modules/gulp/bin/gulp.js sass && ./node_modules/gulp/bin/gulp.js js && ./node_modules/gulp/bin/gulp.js copy && cp src/favicon.ico dist",
     "sass": "./node_modules/gulp/bin/gulp.js sass",
     "js": "./node_modules/gulp/bin/gulp.js js"
   },
