@@ -1,0 +1,19 @@
+
+.tlsc-bg-solid {
+  background-color:  #060241;
+}
+
+.gradient-background {
+  background-image: -moz-linear-gradient(0deg, #d0cfd4 0%, #060241 100%);
+  background-image: -webkit-linear-gradient(0deg, #FFFFFF 0%, #093e93 100%);
+  background-image: -ms-linear-gradient(0deg, #d0cfd4 0%, #060241 100%);
+  color: white;
+}
+
+#hero-bg-tlschedule {
+  background-image: url('/img/calendar.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
