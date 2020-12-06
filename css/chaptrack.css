@@ -1,0 +1,31 @@
+
+
+.gradient-background {
+  background-image: -moz-linear-gradient(0deg, #d0cfd4 0%, #060241 100%);
+  background-image: -webkit-linear-gradient(0deg, #d0cfd4 0%, #060241 100%);
+  background-image: -ms-linear-gradient(0deg, #d0cfd4 0%, #060241 100%);
+  color: white;
+}
+
+.btn-chaptrack-cta {
+  background-color: #090270;
+  border-color: #060241;
+}
+
+
+#hero-bg-chaptrack {
+  background-image: url('/img/clouds.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.lead {
+  color: black;
+}
+
+.gradient-background a {
+  color: white;
+  font-weight: bold;
+}

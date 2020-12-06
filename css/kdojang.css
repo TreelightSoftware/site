@@ -1,0 +1,36 @@
+
+
+.gradient-background {
+  background-image: -moz-linear-gradient(0deg, #562020 0%, #790909 100%);
+  background-image: -webkit-linear-gradient(0deg, #562020 0%, #790909 100%);
+  background-image: -ms-linear-gradient(0deg, #562020 0%, #790909 100%);
+  color: white;
+}
+
+.btn-kdojang-cta {
+  background-color: #790909;
+  border-color: #562020;
+}
+
+#hero-bg-kdojang {
+  background-image: url('/img/dobok.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.gradient-background a {
+  color: white;
+  font-weight: bold;
+}
+
+.kdojang-feature-row h4{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.kdojang-feature-icon {
+  width: 50%;
+}
