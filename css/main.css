@@ -134,6 +134,11 @@ section {
   display: none;
 }
 
+#contact_success {
+  text-align: center;
+  display: none;
+}
+
 .footer {
   background-color: #23242b;
   min-height: 200px;
